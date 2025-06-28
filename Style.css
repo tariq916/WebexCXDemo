@@ -1,0 +1,67 @@
+
+#wrapperImage, #bgImage{
+    width:100%;
+   height: 100%;
+}
+#wrapperImage, #bgImage2{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage3{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage4{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage5{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage6{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage7{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage8{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage9{
+    width:100%;
+    height: 100%;
+}
+#wrapperImage, #bgImage10{
+    width:100%;
+    height: 100%;
+}
+#contactButton {
+  position: fixed;
+  top: 35%; /* Position the button vertically at 35% of the page height */
+  right: 0; /* Align the button to the right edge of the screen */
+  transform: rotate(-90deg); /* Rotate the button -90 degrees for a vertical appearance */
+  transform-origin: 100% 100%; /* Adjust the rotation origin */
+  color: #ffffff; /* Set the text color to white */
+  background-color: #104b78; /* Cisco blue color */
+  border: 2px solid #0b63ac; /* Add a border with a lighter blue */
+  font-size: 20px; /* Increased font size by 25% */
+  padding: 15px 35px; /* Add padding for a clickable button */
+  border-radius: 5px 5px 0 0; /* Rounded corners for the top-left and top-right sides */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for a modern look */
+  z-index: 1000; /* Ensure the button appears above other elements */
+  cursor: pointer; /* Change the cursor to a pointer when hovering */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add smooth transitions */
+}
+#contactButton:hover {
+  background-color: #0b63ac; /* Change background color on hover for interactivity */
+  transform: rotate(-90deg) scale(1.1); /* Slightly enlarge the button on hover */
+}
+#collapseCard {
+  top: 35%;
+  right: 0 !important;
+  position: fixed;
+}
